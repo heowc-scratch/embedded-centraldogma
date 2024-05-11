@@ -1,0 +1,45 @@
+{
+  "dataDir": "./data",
+  "ports": [
+    {
+      "localAddress": {
+        "host": "*",
+        "port": 8080
+      },
+      "protocols": [
+        "http"
+      ]
+    }
+  ],
+  "tls": null,
+  "trustedProxyAddresses": null,
+  "clientAddressSources": null,
+  "numWorkers": null,
+  "maxNumConnections": null,
+  "requestTimeoutMillis": null,
+  "idleTimeoutMillis": null,
+  "maxFrameLength": null,
+  "numRepositoryWorkers": 16,
+  "maxRemovedRepositoryAgeMillis": null,
+  "repositoryCacheSpec": "maximumWeight=134217728,expireAfterAccess=5m",
+  "webAppEnabled": true,
+  "webAppTitle": null,
+  "gracefulShutdownTimeout": {
+    "quietPeriodMillis": 1000,
+    "timeoutMillis": 10000
+  },
+  "replication": {
+    "method": "NONE"
+  },
+  "mirroringEnabled": true,
+  "numMirroringThreads": null,
+  "maxNumFilesPerMirror": null,
+  "maxNumBytesPerMirror": null,
+  "writeQuotaPerRepository": {
+    "requestQuota": 5,
+    "timeWindowSeconds": 1
+  },
+  "accessLogFormat": "common",
+  "authentication": null,
+  "cors": null
+}
